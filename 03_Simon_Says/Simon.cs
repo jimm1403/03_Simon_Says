@@ -15,7 +15,7 @@ namespace _03_Simon_Says
             return simonShout.ToUpper();
         }
 
-        internal string Repeat(string simonRepeat, int _repeatTimes)
+        internal string Repeat(string simonRepeat, int _repeatTimes) //Det er her den er gal???
         {
             _repeatTimes = default(int);
             if (_repeatTimes <= 2)
